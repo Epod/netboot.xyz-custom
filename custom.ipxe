@@ -6,6 +6,7 @@ goto ${menu} ||
 menu Epod custom menu
 item --gap OS:
 item windows ${space} Windows
+item pes ${space} HirenPE
 choose menu || goto custom_exit
 echo ${cls}
 goto ${menu} ||
